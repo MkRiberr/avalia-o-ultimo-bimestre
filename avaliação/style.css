@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(49, 49, 49);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+.img {
+    height: 50px;
+    width: 60px;
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    background-color: #383c44;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+p {
+    color: aliceblue;
+}
+ 
+h1{
+    color: aliceblue;
+}
+
+img{
+    height: 300px;
+    width: 700px;
+}
+
+#img2{
+    height: 300px;
+    width: 700px;  
+
+}
+
+.imagem2{
+    height: 150px;
+    width: 220px;
+}
+
+h2{
+    color: aliceblue;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato MK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <img src="/assets/Sem Título-2.png" class="img" srcset="">
+    </nav>
+
+    
+    <div class="container my-5">
+        <h2 class="text-center  mb-4">Entre em Contato</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Assunto:</label>
+                <input type="text" class="form-control" id="subject" placeholder="Digite o assunto" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-secondary" id="goToPage1">Voltar</button>
+        </form>
+    </div>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>site feito por mark            contato:14 981635651     email:markriberr@gmail.com </p>
+    </footer>
+
+    
+    <script>
+        document.getElementById("goToPage1").onclick = function() {
+            window.location.href = "index.html";
+        };
+    </script>
+</body>
+</html>
